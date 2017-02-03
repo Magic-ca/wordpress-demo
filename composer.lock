@@ -1,0 +1,1854 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "917751034ef70ab3fdd07c4dfddda0e2",
+    "packages": [
+        {
+            "name": "anttiviljami/wp-libre-form",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anttiviljami/wp-libre-form.git",
+                "reference": "c8658d512f20aaa284c23fe0733dc277e3a711c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anttiviljami/wp-libre-form/zipball/c8658d512f20aaa284c23fe0733dc277e3a711c6",
+                "reference": "c8658d512f20aaa284c23fe0733dc277e3a711c6",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Antti Kuosmanen",
+                    "email": "antti@seravo.fi",
+                    "homepage": "https://github.com/anttiviljami"
+                }
+            ],
+            "description": "Easy native HTML5 forms for WordPress",
+            "time": "2017-10-24T15:36:52+00:00"
+        },
+        {
+            "name": "aucor/dynamic-mo-loader",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aucor/dynamic-mo-loader.git",
+                "reference": "6b192ddae68664b9ec8cbb018cd2227db88ac5d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aucor/dynamic-mo-loader/zipball/6b192ddae68664b9ec8cbb018cd2227db88ac5d1",
+                "reference": "6b192ddae68664b9ec8cbb018cd2227db88ac5d1",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Janne Ala-Äijälä",
+                    "email": "j2@aucor.fi"
+                },
+                {
+                    "name": "Björn Ahrens",
+                    "email": "bjoern@ahrens.net"
+                }
+            ],
+            "description": "Better text domain loading with object cache support for WordPress",
+            "homepage": "https://github.com/aucor/dynamic-mo-loader",
+            "time": "2016-10-31T07:05:24+00:00"
+        },
+        {
+            "name": "aucor/wp_query-route-to-rest-api",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aucor/wp_query-route-to-rest-api.git",
+                "reference": "efb6b758a6b14e5cbe262f5758e9c3a4d41d5e60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aucor/wp_query-route-to-rest-api/zipball/efb6b758a6b14e5cbe262f5758e9c3a4d41d5e60",
+                "reference": "efb6b758a6b14e5cbe262f5758e9c3a4d41d5e60",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPLv2+"
+            ],
+            "authors": [
+                {
+                    "name": "Teemu Suoranta",
+                    "email": "teemu@aucor.fi"
+                }
+            ],
+            "description": "Adds new route /wp-json/wp_query/args/ to REST API",
+            "homepage": "https://github.com/aucor/wp_query-route-to-rest-api",
+            "time": "2017-06-03T17:57:03+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/4127333b03e8b4c08d081958548aae5419d1a2fa",
+                "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "replace": {
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "cakephp",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2014-02-24T04:21:34+00:00"
+        },
+        {
+            "name": "devgeniem/wp-core-blocker",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devgeniem/wp-core-blocker.git",
+                "reference": "4d0fee2a550bec8903f936537b334888b780bd0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devgeniem/wp-core-blocker/zipball/4d0fee2a550bec8903f936537b334888b780bd0a",
+                "reference": "4d0fee2a550bec8903f936537b334888b780bd0a",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Onni Hakala",
+                    "homepage": "https://github.com/onnimonni",
+                    "role": "developer"
+                }
+            ],
+            "description": "Disables WP from contacting wp.org servers and disables users from installing anything in wp-admin.",
+            "time": "2016-12-28T22:55:20+00:00"
+        },
+        {
+            "name": "devgeniem/wp-sanitize-accented-uploads",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devgeniem/wp-sanitize-accented-uploads.git",
+                "reference": "58c4f7a1adb568a37f98834c3eacb6d2c73b275e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devgeniem/wp-sanitize-accented-uploads/zipball/58c4f7a1adb568a37f98834c3eacb6d2c73b275e",
+                "reference": "58c4f7a1adb568a37f98834c3eacb6d2c73b275e",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer/installers": ">=v1.0.12",
+                "php": ">=5.6"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Onni Hakala",
+                    "email": "onni.hakala@geniem.com",
+                    "homepage": "https://github.com/onnimonni"
+                }
+            ],
+            "description": "Replaces accents from future uploads and has wp-cli command which you can use to sanitize current content.",
+            "homepage": "http://geniem.com",
+            "keywords": [
+                "Escape",
+                "accents",
+                "sanitate",
+                "uploads",
+                "urls",
+                "wordpress",
+                "wp"
+            ],
+            "time": "2017-01-14T18:15:09+00:00"
+        },
+        {
+            "name": "elliotcondon/advanced-custom-fields-pro",
+            "version": "5.6.7",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:vincit/acf-pro.git",
+                "reference": "e4d0cdef9872f936c96b6cdfb0cabb4f7275bfa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/vincit/dists/elliotcondon/advanced-custom-fields-pro/5.6.7.0/e4d0cdef9872f936c96b6cdfb0cabb4f7275bfa7.zip",
+                "reference": "e4d0cdef9872f936c96b6cdfb0cabb4f7275bfa7",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2017-12-20T08:40:15+00:00"
+        },
+        {
+            "name": "humanmade/page-for-post-type",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/page-for-post-type.git",
+                "reference": "b603f30fea65328002789dffd73cf7ef2030ecbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/page-for-post-type/zipball/b603f30fea65328002789dffd73cf7ef2030ecbb",
+                "reference": "b603f30fea65328002789dffd73cf7ef2030ecbb",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.com",
+                    "homepage": "https://humanmade.com"
+                }
+            ],
+            "description": "Allows you to set pages for any custom post type archive",
+            "homepage": "https://github.com/humanmade/page-for-post-type",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/page-for-post-type/issues",
+                "source": "https://github.com/humanmade/page-for-post-type"
+            },
+            "time": "2017-12-15T09:20:14+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/e47f6652557c3160ee432c2fca5594ac1a8698f5",
+                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "provide": {
+                "wordpress/core-implementation": "4.9.1"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-11-29T21:57:13+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-06-11T15:15:30+00:00"
+        },
+        {
+            "name": "koodimonni-language/fi",
+            "version": "4.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.9.1/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni-plugin-language/akismet-fi": "*",
+                "koodimonni-plugin-language/bbpress-fi": "*",
+                "koodimonni-plugin-language/woocommerce-fi": "*",
+                "koodimonni-plugin-language/wordpress-importer-fi": "*",
+                "koodimonni-theme-language/twentyeleven-fi": "*",
+                "koodimonni-theme-language/twentyfifteen-fi": "*",
+                "koodimonni-theme-language/twentyfourteen-fi": "*",
+                "koodimonni-theme-language/twentysixteen-fi": "*",
+                "koodimonni-theme-language/twentyten-fi": "*",
+                "koodimonni-theme-language/twentythirteen-fi": "*",
+                "koodimonni-theme-language/twentytwelve-fi": "*",
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Full Wordpress translation (including themes and core plugins) for Finnish - fi",
+            "keywords": [
+                "Full-Package",
+                "Translation",
+                "Wordpress",
+                "fi",
+                "twentysixteen"
+            ]
+        },
+        {
+            "name": "koodimonni-language/sv_se",
+            "version": "4.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.9.1/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni-plugin-language/akismet-sv_se": "*",
+                "koodimonni-plugin-language/bbpress-sv_se": "*",
+                "koodimonni-plugin-language/woocommerce-sv_se": "*",
+                "koodimonni-plugin-language/wordpress-importer-sv_se": "*",
+                "koodimonni-theme-language/twentyeleven-sv_se": "*",
+                "koodimonni-theme-language/twentyfifteen-sv_se": "*",
+                "koodimonni-theme-language/twentyfourteen-sv_se": "*",
+                "koodimonni-theme-language/twentysixteen-sv_se": "*",
+                "koodimonni-theme-language/twentyten-sv_se": "*",
+                "koodimonni-theme-language/twentythirteen-sv_se": "*",
+                "koodimonni-theme-language/twentytwelve-sv_se": "*",
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Full Wordpress translation (including themes and core plugins) for Swedish - sv_se",
+            "keywords": [
+                "Full-Package",
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "twentysixteen"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/akismet-fi",
+            "version": "3.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/akismet/3.2/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress akismet translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "akismet",
+                "fi"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/akismet-sv_se",
+            "version": "4.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/akismet/4.0.2/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress akismet translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "akismet",
+                "sv_se"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/bbpress-fi",
+            "version": "2.5.14",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/bbpress/2.5.14/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress bbpress translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "bbpress",
+                "fi"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/bbpress-sv_se",
+            "version": "2.5.14",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/bbpress/2.5.14/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress bbpress translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "bbpress",
+                "sv_se"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/woocommerce-fi",
+            "version": "3.2.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/3.2.6/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress woocommerce translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "woocommerce"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/woocommerce-sv_se",
+            "version": "3.2.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/3.2.6/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress woocommerce translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "woocommerce"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wordpress-importer-fi",
+            "version": "0.6.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wordpress-importer/0.6.3/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress wordpress-importer translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "wordpress-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wordpress-importer-sv_se",
+            "version": "0.6.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wordpress-importer/0.6.3/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress wordpress-importer translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "wordpress-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyeleven-fi",
+            "version": "2.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyeleven/2.7/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentyeleven translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "twentyeleven"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyeleven-sv_se",
+            "version": "2.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyeleven/2.7/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentyeleven translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "twentyeleven"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyfifteen-fi",
+            "version": "1.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfifteen/1.9/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentyfifteen translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "twentyfifteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyfifteen-sv_se",
+            "version": "1.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfifteen/1.9/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentyfifteen translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "twentyfifteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyfourteen-fi",
+            "version": "2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfourteen/2.1/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentyfourteen translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "twentyfourteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyfourteen-sv_se",
+            "version": "2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfourteen/2.1/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentyfourteen translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "twentyfourteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentysixteen-fi",
+            "version": "1.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentysixteen/1.4/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentysixteen translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "twentysixteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentysixteen-sv_se",
+            "version": "1.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentysixteen/1.4/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentysixteen translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "twentysixteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyten-fi",
+            "version": "2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyten/2.4/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentyten translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "twentyten"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyten-sv_se",
+            "version": "2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyten/2.4/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentyten translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "twentyten"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentythirteen-fi",
+            "version": "2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentythirteen/2.3/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentythirteen translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "twentythirteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentythirteen-sv_se",
+            "version": "2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentythirteen/2.3/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentythirteen translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "twentythirteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwelve-fi",
+            "version": "2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwelve/2.4/fi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentytwelve translation for Finnish - fi",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "fi",
+                "twentytwelve"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwelve-sv_se",
+            "version": "2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwelve/2.4/sv_SE.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentytwelve translation for Swedish - sv_se",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "sv_se",
+                "twentytwelve"
+            ]
+        },
+        {
+            "name": "koodimonni/composer-dropin-installer",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
+                "reference": "b09dd53d7bcbe41afec63bd142b17575935e2349"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/b09dd53d7bcbe41afec63bd142b17575935e2349",
+                "reference": "b09dd53d7bcbe41afec63bd142b17575935e2349",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*-dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Koodimonni\\Composer\\Dropin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Koodimonni\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Onni Hakala",
+                    "email": "onni@koodimonni.fi",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+            "time": "2017-01-11T19:10:05+00:00"
+        },
+        {
+            "name": "mikkosaari/relevanssi-premium",
+            "version": "2.0.3.1",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:vincit/relevanssi-premium.git",
+                "reference": "18e7858e508a236659e66b92ee2da916b6ca59c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/vincit/dists/mikkosaari/relevanssi-premium/2.0.3.1/18e7858e508a236659e66b92ee2da916b6ca59c8.zip",
+                "reference": "18e7858e508a236659e66b92ee2da916b6ca59c8",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2017-12-20T08:43:18+00:00"
+        },
+        {
+            "name": "roots/soil",
+            "version": "3.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/soil.git",
+                "reference": "085fd3c9b16df5b72dce4fba09de0207937ef721"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/soil/zipball/085fd3c9b16df5b72dce4fba09de0207937ef721",
+                "reference": "085fd3c9b16df5b72dce4fba09de0207937ef721",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                },
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs"
+                }
+            ],
+            "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+            "homepage": "https://roots.io/plugins/soil/",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2016-03-07T19:49:21+00:00"
+        },
+        {
+            "name": "seravo/seravo-plugin",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seravo/seravo-plugin.git",
+                "reference": "abb7626492bcf2b3788d76cd985e1229bf5e5050"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seravo/seravo-plugin/zipball/abb7626492bcf2b3788d76cd985e1229bf5e5050",
+                "reference": "abb7626492bcf2b3788d76cd985e1229bf5e5050",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer/installers": "v1.0.12"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Antti Kuosmanen",
+                    "email": "antti@seravo.fi",
+                    "homepage": "https://github.com/anttiviljami"
+                },
+                {
+                    "name": "Otto Kekäläinen",
+                    "email": "otto@seravo.fi",
+                    "homepage": "https://github.com/ottok"
+                }
+            ],
+            "description": "Enhances WordPress with Seravo.com specific features and integrations",
+            "homepage": "http://seravo.com",
+            "keywords": [
+                "seravo",
+                "seravo.com",
+                "wordpress",
+                "wp",
+                "wp-palvelu"
+            ],
+            "time": "2017-12-16T20:17:39+00:00"
+        },
+        {
+            "name": "soflyy/wp-all-import-pro",
+            "version": "4.5.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:vincit/wp-all-import-pro.git",
+                "reference": "5e3f3990f15cddc86afb949bc9f8a0bb6621285e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.packagist.com/vincit/dists/soflyy/wp-all-import-pro/4.5.0.0/5e3f3990f15cddc86afb949bc9f8a0bb6621285e.zip",
+                "reference": "5e3f3990f15cddc86afb949bc9f8a0bb6621285e",
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2017-10-09T11:46:16+00:00"
+        },
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "d7c00c3000ac0ce79c96fcbfef86b49a71158cd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7c00c3000ac0ce79c96fcbfef86b49a71158cd1",
+                "reference": "d7c00c3000ac0ce79c96fcbfef86b49a71158cd1",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0"
+            },
+            "bin": [
+                "bin/phpcs",
+                "bin/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "time": "2017-12-19T21:44:46+00:00"
+        },
+        {
+            "name": "vincit/wordpress-theme-base",
+            "version": "dev-demo",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Vincit/wordpress-theme-base.git",
+                "reference": "40183e3dae3f4549583da1a5540f40a09e11de42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Vincit/wordpress-theme-base/zipball/40183e3dae3f4549583da1a5540f40a09e11de42",
+                "reference": "40183e3dae3f4549583da1a5540f40a09e11de42",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "squizlabs/php_codesniffer": "^3.1"
+            },
+            "type": "wordpress-theme",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Nikkanen",
+                    "email": "christian.nikkanen@vincit.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/Vincit/wordpress-theme-base/tree/demo",
+                "issues": "https://github.com/Vincit/wordpress-theme-base/issues"
+            },
+            "time": "2018-01-12T13:36:44+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "56c252d48dce336da97926591aed71805203815b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/56c252d48dce336da97926591aed71805203815b",
+                "reference": "56c252d48dce336da97926591aed71805203815b",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Dotenv": "src/"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "homepage": "http://github.com/vlucas/phpdotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2014-10-16T14:50:21+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/global-meta-box-order",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/global-meta-box-order/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/global-meta-box-order.zip?timestamp=1449072670",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/global-meta-box-order/"
+        },
+        {
+            "name": "wpackagist-plugin/imsanity",
+            "version": "2.3.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/imsanity/",
+                "reference": "tags/2.3.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/imsanity.2.3.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/imsanity/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "2.17.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/2.17.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.17.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
+        },
+        {
+            "name": "wpackagist-plugin/rich-text-tags",
+            "version": "1.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rich-text-tags/",
+                "reference": "tags/1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rich-text-tags.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rich-text-tags/"
+        },
+        {
+            "name": "wpackagist-plugin/svg-support",
+            "version": "2.3.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/svg-support/",
+                "reference": "tags/2.3.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/svg-support.2.3.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/svg-support/"
+        },
+        {
+            "name": "wpackagist-plugin/user-switching",
+            "version": "1.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/user-switching/",
+                "reference": "tags/1.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-switching/"
+        },
+        {
+            "name": "wpackagist-plugin/what-the-file",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/what-the-file/",
+                "reference": "tags/1.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/what-the-file.1.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/what-the-file/"
+        },
+        {
+            "name": "wpackagist-theme/twentyseventeen",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/twentyseventeen/",
+                "reference": "1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/twentyseventeen/"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "filp/whoops",
+            "version": "2.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
+                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^5.5.9 || ^7.0",
+                "psr/log": "^1.0.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
+                "symfony/var-dumper": "^2.6 || ^3.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Whoops\\": "src/Whoops/"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php error handling for cool kids",
+            "homepage": "https://filp.github.io/whoops/",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "throwable",
+                "whoops"
+            ],
+            "time": "2017-11-23T18:22:44+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/4d45fb62d96418396ec58ba76e6f065bca16e10a",
+                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2017-07-23T07:32:15+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "rarst/wps",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rarst/wps.git",
+                "reference": "a4188139eaab8011373ce9e200a2ba52d094ea40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rarst/wps/zipball/a4188139eaab8011373ce9e200a2ba52d094ea40",
+                "reference": "a4188139eaab8011373ce9e200a2ba52d094ea40",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "filp/whoops": "^2.1",
+                "pimple/pimple": "~3.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "classmap": [
+                    "php/"
+                ]
+            },
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Savchenko",
+                    "email": "contact@rarst.net",
+                    "homepage": "http://www.Rarst.net/"
+                }
+            ],
+            "description": "WordPress plugin for whoops error handler.",
+            "homepage": "https://github.com/Rarst/wps",
+            "keywords": [
+                "error",
+                "whoops",
+                "wordpress"
+            ],
+            "time": "2017-10-27T09:44:01+00:00"
+        },
+        {
+            "name": "vincit/wordpress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Vincit/wordpress.git",
+                "reference": "f33ce47e35192980a4e83007e2f55794494cb697"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Vincit/wordpress/zipball/f33ce47e35192980a4e83007e2f55794494cb697",
+                "reference": "f33ce47e35192980a4e83007e2f55794494cb697",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/vincit/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "seravo-wordpress-dropin",
+            "notification-url": "https://repo.packagist.com/vincit/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Nikkanen",
+                    "email": "christian.nikkanen@vincit.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/Vincit/wordpress/tree/master",
+                "issues": "https://github.com/Vincit/wordpress/issues"
+            },
+            "time": "2018-01-09T15:11:51+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "humanmade/page-for-post-type": 20,
+        "vincit/wordpress-theme-base": 20,
+        "rarst/wps": 20,
+        "vincit/wordpress": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

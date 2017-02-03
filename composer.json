@@ -1,0 +1,117 @@
+{
+  "name": "vincit/wordpress-demo",
+  "type": "project",
+  "license": "GPL-2.0",
+  "description": "Vincit WordPress demo project",
+  "homepage": "https://vincit.com/",
+  "authors": [{
+      "name": "Antti Kuosmanen",
+      "email": "antti@seravo.fi",
+      "homepage": "https://github.com/anttiviljami"
+    },
+    {
+      "name": "Otto Kekäläinen",
+      "email": "otto@seravo.fi",
+      "homepage": "https://github.com/ottok"
+    },
+    {
+      "name": "Onni Hakala",
+      "email": "onni@seravo.fi",
+      "homepage": "https://github.com/onnimonni"
+    },
+    {
+      "name": "Christian Nikkanen",
+      "email": "christian.nikkanen@vincit.com",
+      "homepage": "https://github.com/k1sul1"
+    }
+  ],
+  "keywords": [
+    "wordpress", "composer", "wp", "wp-palvelu", "seravo"
+  ],
+  "config": {
+    "preferred-install": {
+      "vincit/wordpress-theme-base": "source",
+      "vincit/*": "source",
+      "*": "dist"
+    }
+
+  },
+  "autoload": {
+    "psr-0": {
+      "WordPress\\Installer": "scripts"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "WordPress\\Installer::symlinkWPContent"
+    ],
+    "post-update-cmd": [
+      "WordPress\\Installer::symlinkWPContent"
+    ]
+  },
+  "repositories": [{
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://wp-languages.github.io"
+    },
+    {
+      "type": "composer",
+      "url": "https://repo.packagist.com/vincit/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "johnpbloch/wordpress-core-installer": "^0.2.1",
+    "johnpbloch/wordpress-core": "^4.7",
+    "composer/installers": "v1.0.12",
+    "koodimonni/composer-dropin-installer": ">=0.2.4",
+    "vlucas/phpdotenv": "1.0.9",
+
+    "koodimonni-language/fi": "*",
+    "koodimonni-language/sv_SE": "*",
+
+    "wpackagist-plugin/user-switching": "*",
+    "wpackagist-plugin/what-the-file": "*",
+    "wpackagist-plugin/rich-text-tags": "*",
+    "wpackagist-plugin/imsanity": "*",
+    "wpackagist-plugin/global-meta-box-order": "*",
+    "wpackagist-plugin/query-monitor": "*",
+    "wpackagist-plugin/svg-support": "*",
+    "mikkosaari/relevanssi-premium": "*",
+    "elliotcondon/advanced-custom-fields-pro": "*",
+    "anttiviljami/wp-libre-form": "*",
+
+    "roots/soil": "3.7.0",
+    "aucor/dynamic-mo-loader": ">=1.1.1",
+    "aucor/wp_query-route-to-rest-api": ">=1.1.1",
+    "seravo/seravo-plugin": ">=1.4.0",
+    "devgeniem/wp-sanitize-accented-uploads": "^1.2",
+    "devgeniem/wp-core-blocker": "^0.3.2",
+    "soflyy/wp-all-import-pro": "^4.5",
+    "humanmade/page-for-post-type": "dev-master",
+
+    "wpackagist-theme/twentyseventeen": "*",
+    "vincit/wordpress-theme-base": "dev-demo"
+  },
+  "require-dev": {
+    "rarst/wps": "dev-master",
+    "vincit/wordpress": "@dev"
+  },
+  "extra": {
+    "installer-paths": {
+      "htdocs/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin", "rarst/wps"],
+      "htdocs/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "htdocs/wp-content/themes/{$name}": ["type:wordpress-theme"]
+    },
+    "dropin-paths": {
+      "htdocs/wp-content/languages/": ["vendor:koodimonni-language"],
+      "htdocs/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "htdocs/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"],
+      ".": ["type:seravo-wordpress-dropin"]
+    },
+    "wordpress-install-dir": "htdocs/wordpress"
+  }
+}
