@@ -1,0 +1,17 @@
+###
+# Configuration for Vagrant
+###
+name: wordpress
+production:
+  # This is used to automatically fetch data from a staging/production environment
+  domain: wordpress.vincit.io
+  ssh_port: 22
+  user: circleci
+  url: https://wordpress.vincit.io
+  uploadDir: /var/www/html/htdocs/wp-content/uploads/
+development:
+  # Domains are automatically mapped to Vagrant with /etc/hosts modifications
+  domains:
+    - wordpress.local
+  # If you want to use zeroconf (.local domains) in your network you can use this.
+  #avahi: true
